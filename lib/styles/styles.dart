@@ -7,15 +7,39 @@ class StyledComponents {
     fontWeight: FontWeight.bold,
     fontFamily: 'Product Sans',
   );
+  static const TextStyle PageThreeTitle = TextStyle(
+    color: Colors.white,
+    fontSize: 40.0,
+    fontWeight: FontWeight.bold,
+    fontFamily: 'Product Sans',
+  );
   static const TextStyle GreyStyle = TextStyle(
     color: Colors.grey,
     fontSize: 40.0,
     fontWeight: FontWeight.bold,
     fontFamily: 'Product Sans',
   );
+  static const TextStyle WhiteStyle = TextStyle(
+    color: Colors.white,
+    fontSize: 40.0,
+    fontWeight: FontWeight.bold,
+    fontFamily: 'Product Sans',
+  );
   static const TextStyle BoldDarkStyle = TextStyle(
     color: Colors.black,
-    fontSize: 40.0,
+    fontSize: 45.0,
+    fontFamily: 'Product Sans',
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle BoldDGreytyle = TextStyle(
+    color: Colors.grey,
+    fontSize: 35.0,
+    fontFamily: 'Product Sans',
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle BoldWhiteStyle = TextStyle(
+    color: Colors.white,
+    fontSize: 35.0,
     fontFamily: 'Product Sans',
     fontWeight: FontWeight.bold,
   );
@@ -24,8 +48,9 @@ class StyledComponents {
     fontSize: 20.0,
     fontFamily: 'Product Sans',
   );
+
   static const TextStyle DescripitonWhiteStyle = TextStyle(
-    color: Colors.grey,
+    color: Colors.white,
     fontSize: 20.0,
     fontFamily: 'Product Sans',
   );
